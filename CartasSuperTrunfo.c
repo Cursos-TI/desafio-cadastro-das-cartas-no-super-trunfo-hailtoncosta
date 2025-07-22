@@ -104,11 +104,12 @@ int main() {
     super_poder2 = populacao2 + area2 + pib2 + num_ponto_turistico2 + densidade_populacional2 + pib_per_capita2;
     printf("Super poder: %.2f\n", super_poder2);
 
+    //se a população da carta 1 for maior do que da carta 2 a carta 1 vence
     if (populacao1 > populacao2) {
         printf("Carta 1 - %d\n", populacao1);
         printf("Carta 2 - %d\n", populacao2);
         printf("Resultado: Carta 1 %s venceu!!!\n", cidade1);
-    } else {
+    } else { //senão a carta 2 vence
         printf("Carta 1 - %d\n", populacao1);
         printf("Carta 2 - %d\n", populacao2);
         printf("Resultado: Carta 2 %s venceu!!!\n", cidade2);

@@ -466,7 +466,6 @@ int main() {
             printf("Pais %s - %s / País %s - %s ", estado1, cidade1, estado2, cidade2);
             printf("Atributo: Densidade demográfica\n");
             printf("Comparação das cartas (Atributo: Densidade demográfica)\n");
-            printf("-------------------------------------------------\n");
         }
         break;
     case 6:

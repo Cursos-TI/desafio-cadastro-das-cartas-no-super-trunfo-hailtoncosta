@@ -306,7 +306,7 @@ int main() {
             printf("Resultado: Carta 1 %s venceu!!!\n", cidade1);
             printf("-------------------------------------------------\n");
 
-        } else if (super_poder1 == super_poder2) {
+        } else if (pib_per_capita1 == pib_per_capita2) {
             printf("Atributo: Per Capita\n");
             printf("Comparação das cartas (Atributo: Per Capita)\n");
             printf("Carta 1 - %s - Per Capita: %.2f\n", cidade1, pib_per_capita1);

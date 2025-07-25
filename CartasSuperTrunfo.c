@@ -108,6 +108,7 @@ int main() {
     printf("Número de pontos turísticos: %d\n", num_ponto_turistico1);
     printf("Densidade populacional: %.2f\n", densidade_populacional1);
     printf("PIB per capita: %.2f\n", pib_per_capita1);
+    printf("Super Poder: %.2f\n", super_poder1);
     printf("----------------------------------------------------------\n");
 
     //Calculo da densidade populacionar da segunda carta e proteção contra divisão por zero
@@ -135,6 +136,7 @@ int main() {
     printf("Número de pontos turísticos: %d\n", num_ponto_turistico2);
     printf("Densidade populacional: %.2f\n", densidade_populacional2);
     printf("PIB per capita: %.2f\n", pib_per_capita2);
+    printf("Super Poder: %.2f\n", super_poder2);
     printf("----------------------------------------------------------\n");
 
     //Início do Switch/case
@@ -295,9 +297,9 @@ int main() {
         break;
 
     case 6: //Atributo Per capita
-        //se per capita da carta 1 for maior do que da carta 2 a carta 1 vence
+        //se super poder da carta 1 for maior do que da carta 2 a carta 1 vence
         if (super_poder1 > super_poder2) {
-            printf("Atributo: Super Pder\n");
+            printf("Atributo: Super Poder\n");
             printf("Comparação das cartas (Atributo: Super Poder)\n");
             printf("Carta 1 - %s - Super Poder: %.2f\n", cidade1, super_poder1);
             printf("Carta 2 - %s - Super Poder: %.2f\n", cidade2, super_poder2);
